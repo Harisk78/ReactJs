@@ -1,0 +1,11 @@
+.foot{
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.486);
+    padding:12px 0px;
+}
+.foot p{
+    text-align: center;
+}
+.foot .sp{
+    margin:0px auto;
+}

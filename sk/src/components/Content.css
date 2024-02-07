@@ -1,0 +1,35 @@
+.Con{
+    height: 75vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count{
+    width:10%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.count button{
+    padding:10px 10px;
+    font-size: 18px;
+    border-radius: 30%;
+    background-color:black;
+    /* background: transparent; */
+    outline: none;
+    border:1px solid rgba(128, 128, 128, 0.555);
+    color:white;
+    cursor: pointer;
+}
+.count button:hover{
+    box-shadow: 2px 2px 8px rgb(255, 255, 255);
+    transition:0.2s linear;
+}
+.count button:active{
+    scale:0.97
+}
+.count span{
+    font-size: 20px;
+}
