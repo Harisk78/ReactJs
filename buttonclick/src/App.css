@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.con{
+    height:100vh;
+    width:100vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con fieldset{
+    width:30%;
+}
+.con fieldset .inp{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.con fieldset .inp input{
+    padding:6px;
+    border:none;
+    outline:none;
+    background-color: rgb(170, 170, 170);
+    color:rgb(0, 0, 0);
+}
+.con fieldset .inp button{
+    padding:5px 10px;
+    cursor:pointer;
+    border:none;
+    outline:none;
+    background-color: rgb(71, 71, 245);
+    color:white;
+}
+.con fieldset .inp button:hover{
+    background-color: blue;
+}
+.con fieldset #container{
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
+.con fieldset #container ul li{
+    padding:8px;
+    list-style-type:none;
+    cursor: pointer;
+}
+.click{
+    text-decoration: line-through;
+}
