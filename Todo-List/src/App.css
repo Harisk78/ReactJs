@@ -37,12 +37,10 @@
 .con fieldset .inp button:hover{
     background-color: blue;
 }
-.con fieldset #container{
+.con fieldset ul{
     width:100%;
-    display: flex;
-    justify-content:center;
 }
-.con fieldset #container ul li{
+.con fieldset ul li{
     padding:8px;
     list-style-type:none;
     cursor: pointer;
